@@ -3,9 +3,6 @@
 
 A lightweight Python utility for **AIMP Player** that allows you to define custom loops (sections) within tracks and switch between them seamlessly in real-time. 
 
-Perfect for musicians practicing specific song parts or DJs who want to extend track sections.
-
-
 ## Features
 * **Automatic Track Detection**: Syncs with AIMP to find loops for the currently playing song.
 * **Smart Transitions**: Queue the next loop; it will wait for the current one to finish before switching.
