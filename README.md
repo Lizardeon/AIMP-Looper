@@ -14,14 +14,11 @@ Perfect for musicians practicing specific song parts or DJs who want to extend t
 
 ## Installation
 
-1.  **Enable AIMP WebControl**:
-    * Open AIMP Settings -> Plugins.
-    * Ensure **WebControl** is enabled (this script uses it to communicate with the player).
-2.  **Install Dependencies**:
+1.  **Install Dependencies**:
     ```bash
     pip install pyaimp
     ```
-3.  **Download the Script**:
+2.  **Download the Script**:
     Save `aimp_looper.py` and create a `loops.txt` in the same folder.
 
 ## Configuration (`loops.txt`)
