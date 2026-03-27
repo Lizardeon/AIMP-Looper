@@ -5,15 +5,12 @@ A lightweight Python utility for **AIMP Player** that allows you to define custo
 
 Perfect for musicians practicing specific song parts or DJs who want to extend track sections.
 
----
 
 ## Features
 * **Automatic Track Detection**: Syncs with AIMP to find loops for the currently playing song.
 * **Smart Transitions**: Queue the next loop; it will wait for the current one to finish before switching.
 * **Live Reload**: Update your `loops.txt` file and reload it without restarting the script.
 * **CLI Interface**: Simple, numbered controls for easy navigation.
-
----
 
 ## Installation
 
@@ -26,8 +23,6 @@ Perfect for musicians practicing specific song parts or DJs who want to extend t
     ```
 3.  **Download the Script**:
     Save `aimp_looper.py` and create a `loops.txt` in the same folder.
-
----
 
 ## Configuration (`loops.txt`)
 
