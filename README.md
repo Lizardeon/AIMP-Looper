@@ -41,8 +41,6 @@ The script looks for a file named `loops.txt`. Use the following format:
 00:15.000 | 00:45.200 | Verse 1
 ```
 
----
-
 ## How to Use
 
 1.  Start AIMP and play a track defined in your config.
@@ -56,8 +54,6 @@ The script looks for a file named `loops.txt`. Use the following format:
     * **[Numbers]**: Type a number and hit Enter to queue that loop.
     * **[R]**: Reload the `loops.txt` file after making changes.
     * **[Q]**: Quit the application.
-
----
 
 ## Requirements
 * Windows (AIMP is Windows-native).
