@@ -24,7 +24,7 @@ class AimpLooper:
         self.load_config()
 
     def parse_time(self, t_str):
-        """Converts MM:SS.mmm to milliseconds"""
+        # Converts MM:SS.mmm to milliseconds
         try:
             t_str = t_str.strip()
             # Split by dot into (minutes:seconds) and (milliseconds)
@@ -35,7 +35,7 @@ class AimpLooper:
             return 0
 
     def load_config(self):
-        """Parses the loops.txt file"""
+        # Parses the loops.txt file
         if not os.path.exists(self.config_file):
             with open(self.config_file, 'w', encoding='utf-8') as f:
                 f.write("// Format: # Track Title\n// 00:01.000 | 00:05.000 | Loop Name\n")
@@ -70,7 +70,7 @@ class AimpLooper:
         print(f"[SYSTEM] Config updated. Tracks in database: {len(self.tracks_data)}")
 
     def monitor_aimp(self):
-        """Background thread to monitor playback position"""
+        # Background thread to monitor playback position
         while self.running:
             try:
                 # 1. Check what's playing
